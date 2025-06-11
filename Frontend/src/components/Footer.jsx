@@ -407,8 +407,8 @@ function Footer() {
               }}
             >
               {[
-                // { name: 'Privacy Policy', path: '/privacy-policy' },
-                // { name: 'Terms of Use', path: '/terms-of-service' },
+                { name: 'Privacy Policy', path: '/privacy-policy' },
+                { name: 'Terms of Use', path: '/terms-of-service' },
               ].map((item) => (
                 <Link
                   key={item.name}
